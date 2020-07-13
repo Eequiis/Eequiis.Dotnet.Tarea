@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Eequiis Vásquez</Authors>
+    <Company>Eequiis Software</Company>
+    <Description>Permite diferir tareas en el tiempo mediante hilos, y esperarlas mediante await.</Description>
+    <Copyright>Eequiis Software 2020</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/Eequiis/Eequiis.Dotnet.Tarea</RepositoryUrl>
+    <RepositoryType>Git en GitHub</RepositoryType>
+    <PackageTags>C#, Hilo, Thread</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
